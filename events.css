@@ -1,12 +1,18 @@
 /* resets css page so that there is no empty space */
 * {
     font-family: "Noto Sans Mono", sans-serif;
+    margin:0;
+    padding:0;
   }
   
   body {
     margin: auto;
     overflow-x: hidden;
     text-align: center;
+  }
+
+  header {
+    background-color: olivedrab;
   }
   
   h1 {
@@ -36,7 +42,7 @@
   
   .message {
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
   }
   
   .btn {
@@ -90,23 +96,7 @@
     border-radius: 15px;
   }
   
-  /* fixed to the bottom of the page, and position is fixed */
-  .bottom-container {
-    position: relative;
-    bottom: 0px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 100%;
-    background: lightblue;
-    text-align: center;
-    box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.2),
-      4px 6px 20px 4px rgba(0, 0, 0, 0.19);
-  }
-  .bottom-container p {
-    line-height: none;
-    color: white;
-    padding-bottom: 1%;
-  }
+
 
 
 
